@@ -1,0 +1,62 @@
+* {
+    background-color: rgb(78, 59, 59);
+    color: cyan;
+    font-size: 18px;
+
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 30px;
+    color: magenta;
+    text-shadow: 2px 2px 16px magenta;
+    text-align: center;
+    padding: 20px;
+}
+
+.input::placeholder {
+    padding: 10px;
+    /* text-align: center; */
+    /* border: 1px solid red; */
+}
+.input::placeholder-shown {
+    /* color:red; */
+    /* padding: 10px;/ */
+    border: 1px solid red;
+}
+
+.box {
+    height:30vw;
+    width:30vw;
+    /* margin-left:1vw; */
+    margin-top: 8vw;
+    border: 1px solid cyan;
+    box-shadow: 10px 10px 100px cyan;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+ul li {
+    margin: 10px;
+}
+
+button {
+    margin-left: 10px;
+    background-color: transparent;
+    border: 2px solid cyan;
+    /* border-radius: px; */
+}
+
+button:hover {
+    margin-left: 13px;
+    color: black;
+    transition: all linear 0.2s;
+    background-color: cyan;
+    border: 2px solid cyan;
+    /* border-radius: px; */
+}
